@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+header {
+  display: flex;
+  margin: 0 auto;
+  width: 1140px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.line {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+
+.shopLogo {
+  font-size: 36px;
+
+}
+
+.menuItems {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 30px;
+  font-size: 18px;
+
+
+}
+
+.menuItems a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.product-item {
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 2px solid #a69a9a;
+  background: white;
+  font-family: "Open Sans";
+  transition: .3s ease-in;
+}
+
+.product-item:hover {
+  border-bottom: 3px solid #000000;
+}
+
+.product-item img {
+  display: block;
+  width: 100%;
+}
+
+.product-list {
+  background: #fafafa;
+  padding: 10px 0;
+}
+
+.product-list a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #4d4848;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 16px;
+  color: #000000;
+  display: block;
+}
+
+.product-items {
+  display: flex;
+  width: 1140px;
+  margin-bottom: 20px;
+}
