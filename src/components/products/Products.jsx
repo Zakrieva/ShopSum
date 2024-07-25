@@ -1,18 +1,18 @@
 import Product from "./product/Product"
 const Products = () => {
     const products = [
-        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#', },
-        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#', },
-        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#', },
-        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#', },
-        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#', },
-        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#', },
-        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#', },
-        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#', },
-        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#', },
-        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#', },
-        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#', },
-        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#', }
+        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#' },
+        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#' },
+        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#' },
+        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#' },
+        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#' },
+        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#' },
+        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#' },
+        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#' },
+        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#' },
+        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#' },
+        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#' },
+        { model: 'Samsung Galaxy S24 Ultra', img: './product/s24ultra.jpg', price: '$1000', href: '#' }
     ]
     return (
         <div className="product-items">
